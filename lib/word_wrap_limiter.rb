@@ -1,5 +1,7 @@
 require "word_wrap_limiter/version"
 
 module WordWrapLimiter
-  # Your code goes here...
+  def self.wrap(string, line_length)
+    string
+  end
 end
